@@ -22,7 +22,13 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		D871E9C5241F9B3B0014B06C /* NMLCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */; };
+		D871E9C6241F9B3B0014B06C /* NMLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */; };
+		D871E9C7241F9B3B0014B06C /* NMLDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B5241F9B3B0014B06C /* NMLDemoData.m */; };
+		D871E9C8241F9B3B0014B06C /* NMLDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B6241F9B3B0014B06C /* NMLDemoCellItemModel.m */; };
+		D871E9C9241F9B3B0014B06C /* NMLCollectionViewSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9BC241F9B3B0014B06C /* NMLCollectionViewSmallCell.m */; };
+		D871E9CA241F9B3B0014B06C /* NMLCollectionViewBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9BD241F9B3B0014B06C /* NMLCollectionViewBigCell.m */; };
+		D871E9D1241F9BF10014B06C /* NMLRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9CF241F9BF10014B06C /* NMLRuleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		3107F6DA58C6EC40F35DBBD9 /* Pods-MDUIMaterialKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDUIMaterialKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MDUIMaterialKit_Example/Pods-MDUIMaterialKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		35ED975EF9FDAB4DA2FBF14A /* MDUIMaterialKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MDUIMaterialKit.podspec; path = ../MDUIMaterialKit.podspec; sourceTree = "<group>"; };
+		35ED975EF9FDAB4DA2FBF14A /* MDUIMaterialKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MDUIMaterialKit.podspec; path = ../MDUIMaterialKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5282F768EEBB822AD44A6B50 /* Pods_MDUIMaterialKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MDUIMaterialKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MDUIMaterialKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MDUIMaterialKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -59,10 +65,23 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AB1BB89FF6AF2397163C8ED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		ADC84BD65D51CDCA03405D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AB1BB89FF6AF2397163C8ED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ADC84BD65D51CDCA03405D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF2973631A6CE037B37CE305 /* Pods-MDUIMaterialKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDUIMaterialKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDUIMaterialKit_Example/Pods-MDUIMaterialKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D871E9B0241F9B3B0014B06C /* NMLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoViewController.h; sourceTree = "<group>"; };
+		D871E9B1241F9B3B0014B06C /* NMLCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewLayout.h; sourceTree = "<group>"; };
+		D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewLayout.m; sourceTree = "<group>"; };
+		D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLDemoViewController.m; sourceTree = "<group>"; };
+		D871E9B5241F9B3B0014B06C /* NMLDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLDemoData.m; sourceTree = "<group>"; };
+		D871E9B6241F9B3B0014B06C /* NMLDemoCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLDemoCellItemModel.m; sourceTree = "<group>"; };
+		D871E9B7241F9B3B0014B06C /* NMLDemoCellItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoCellItemModel.h; sourceTree = "<group>"; };
+		D871E9B8241F9B3B0014B06C /* NMLDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoData.h; sourceTree = "<group>"; };
+		D871E9BA241F9B3B0014B06C /* NMLCollectionViewSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewSmallCell.h; sourceTree = "<group>"; };
+		D871E9BB241F9B3B0014B06C /* NMLCollectionViewBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewBigCell.h; sourceTree = "<group>"; };
+		D871E9BC241F9B3B0014B06C /* NMLCollectionViewSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewSmallCell.m; sourceTree = "<group>"; };
+		D871E9BD241F9B3B0014B06C /* NMLCollectionViewBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewBigCell.m; sourceTree = "<group>"; };
+		D871E9CF241F9BF10014B06C /* NMLRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLRuleViewController.m; sourceTree = "<group>"; };
+		D871E9D0241F9BF10014B06C /* NMLRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLRuleViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,9 +145,11 @@
 		6003F593195388D20070C39A /* Example for MDUIMaterialKit */ = {
 			isa = PBXGroup;
 			children = (
+				D871E9CE241F9BF10014B06C /* Rule */,
+				D871E9AF241F9B3B0014B06C /* Demo */,
+				D871E9BE241F9B3B0014B06C /* DemoDetailVC */,
 				6003F59C195388D20070C39A /* MDAppDelegate.h */,
 				6003F59D195388D20070C39A /* MDAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MDViewController.h */,
 				6003F5A6195388D20070C39A /* MDViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -186,6 +207,57 @@
 				CF2973631A6CE037B37CE305 /* Pods-MDUIMaterialKit_Example.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D871E9AF241F9B3B0014B06C /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				D871E9B0241F9B3B0014B06C /* NMLDemoViewController.h */,
+				D871E9B1241F9B3B0014B06C /* NMLCollectionViewLayout.h */,
+				D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */,
+				D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */,
+				D871E9B4241F9B3B0014B06C /* Data */,
+				D871E9B9241F9B3B0014B06C /* Views */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		D871E9B4241F9B3B0014B06C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D871E9B5241F9B3B0014B06C /* NMLDemoData.m */,
+				D871E9B6241F9B3B0014B06C /* NMLDemoCellItemModel.m */,
+				D871E9B7241F9B3B0014B06C /* NMLDemoCellItemModel.h */,
+				D871E9B8241F9B3B0014B06C /* NMLDemoData.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D871E9B9241F9B3B0014B06C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D871E9BA241F9B3B0014B06C /* NMLCollectionViewSmallCell.h */,
+				D871E9BB241F9B3B0014B06C /* NMLCollectionViewBigCell.h */,
+				D871E9BC241F9B3B0014B06C /* NMLCollectionViewSmallCell.m */,
+				D871E9BD241F9B3B0014B06C /* NMLCollectionViewBigCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D871E9BE241F9B3B0014B06C /* DemoDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DemoDetailVC;
+			sourceTree = "<group>";
+		};
+		D871E9CE241F9BF10014B06C /* Rule */ = {
+			isa = PBXGroup;
+			children = (
+				D871E9CF241F9BF10014B06C /* NMLRuleViewController.m */,
+				D871E9D0241F9BF10014B06C /* NMLRuleViewController.h */,
+			);
+			path = Rule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +320,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -267,7 +340,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -316,13 +388,17 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MDUIMaterialKit_Example/Pods-MDUIMaterialKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/EasyLayout/EasyLayout.framework",
 				"${BUILT_PRODUCTS_DIR}/MDUIMaterialKit/MDUIMaterialKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyLayout.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDUIMaterialKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,8 +412,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D871E9C8241F9B3B0014B06C /* NMLDemoCellItemModel.m in Sources */,
+				D871E9C5241F9B3B0014B06C /* NMLCollectionViewLayout.m in Sources */,
+				D871E9C6241F9B3B0014B06C /* NMLDemoViewController.m in Sources */,
+				D871E9C7241F9B3B0014B06C /* NMLDemoData.m in Sources */,
+				D871E9CA241F9B3B0014B06C /* NMLCollectionViewBigCell.m in Sources */,
 				6003F59E195388D20070C39A /* MDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MDViewController.m in Sources */,
+				D871E9C9241F9B3B0014B06C /* NMLCollectionViewSmallCell.m in Sources */,
+				D871E9D1241F9BF10014B06C /* NMLRuleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

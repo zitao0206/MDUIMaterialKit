@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "287B98C78FEFF2ADF07D74BAA0F29A92"
+               BlueprintIdentifier = "2C198EB12CE0941FD6AB1ECC2BD01FE2"
                BuildableName = "Pods_MDUIMaterialKit_Example.framework"
                BlueprintName = "Pods-MDUIMaterialKit_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
