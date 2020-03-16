@@ -1,0 +1,16 @@
+PODS:
+  - MDUIMaterialKit (0.1.0)
+
+DEPENDENCIES:
+  - MDUIMaterialKit (from `../`)
+
+EXTERNAL SOURCES:
+  MDUIMaterialKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MDUIMaterialKit: f23bd591d114e76e8c7a41695035699a407130c4
+
+PODFILE CHECKSUM: 7b3266995e7a11f9040b0d72e8c2c1dfc987afae
+
+COCOAPODS: 1.5.3

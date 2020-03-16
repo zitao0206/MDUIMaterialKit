@@ -1,0 +1,6 @@
+framework module Pods_MDUIMaterialKit_Example {
+  umbrella header "Pods-MDUIMaterialKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
