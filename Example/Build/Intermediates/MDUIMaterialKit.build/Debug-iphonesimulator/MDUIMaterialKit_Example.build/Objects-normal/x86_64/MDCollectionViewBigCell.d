@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/MDUIMaterialKit-Prefix.pch \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Demo/Views/MDCollectionViewBigCell.m \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Demo/Views/MDCollectionViewBigCell.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Demo/Data/MDDemoCellItemModel.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/EasyLayout/EasyLayout.framework/Modules/module.modulemap \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/EasyLayout/EasyLayout.framework/Headers/UIView+EasyLayout.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/EasyLayout/EasyLayout.framework/Headers/EasyLayout.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/EasyLayout/EasyLayout.framework/Headers/EasyLayout-umbrella.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Modules/module.modulemap \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Headers/UIColor+Ext.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Headers/NSURL+Ext.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Headers/NSString+Ext.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Headers/NSArray+functional.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Headers/MDCommonKit.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/MDCommonKit/MDCommonKit.framework/Headers/MDCommonKit-umbrella.h

@@ -8,8 +8,8 @@
 
 #import "MDViewController.h"
 #import <Masonry/Masonry.h>
-#import "NMLDemoViewController.h"
-#import "NMLRuleViewController.h"
+#import "MDDemoViewController.h"
+#import "MDRuleViewController.h"
 
 @interface MDViewController ()
 @property (nonatomic, strong) UIButton *demoBtn;
@@ -39,14 +39,14 @@
 
 - (void)demoBtnClickAction
 {
-    NMLDemoViewController *vc = [[NMLDemoViewController alloc]init];
+    MDDemoViewController *vc = [[MDDemoViewController alloc]init];
     vc.title = @"示例展示";
     [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)ruleBtnClickAction
 {
-    NMLRuleViewController *vc = [[NMLRuleViewController alloc]init];
+    MDRuleViewController *vc = [[MDRuleViewController alloc]init];
     vc.title = @"入库方法";
     [self.navigationController pushViewController:vc animated:YES];
 }

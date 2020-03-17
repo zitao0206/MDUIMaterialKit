@@ -19,5 +19,5 @@ dependencies: \
   /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h \
   /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h \
   /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h \
-  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Demo/NMLDemoViewController.h \
-  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Rule/NMLRuleViewController.h
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Demo/MDDemoViewController.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Rule/MDRuleViewController.h

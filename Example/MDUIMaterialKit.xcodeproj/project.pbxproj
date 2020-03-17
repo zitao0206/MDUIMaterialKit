@@ -25,13 +25,13 @@
 		D83D157E2420C5EB004F864C /* md_image_text.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D157C2420C5EB004F864C /* md_image_text.png */; };
 		D83D157F2420C5EB004F864C /* md_multi_label.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D157D2420C5EB004F864C /* md_multi_label.png */; };
 		D83D15812420C5F6004F864C /* md_fold_number.mov in Resources */ = {isa = PBXBuildFile; fileRef = D83D15802420C5F6004F864C /* md_fold_number.mov */; };
-		D871E9C5241F9B3B0014B06C /* NMLCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */; };
-		D871E9C6241F9B3B0014B06C /* NMLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */; };
-		D871E9C7241F9B3B0014B06C /* NMLDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B5241F9B3B0014B06C /* NMLDemoData.m */; };
-		D871E9C8241F9B3B0014B06C /* NMLDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B6241F9B3B0014B06C /* NMLDemoCellItemModel.m */; };
-		D871E9C9241F9B3B0014B06C /* NMLCollectionViewSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9BC241F9B3B0014B06C /* NMLCollectionViewSmallCell.m */; };
-		D871E9CA241F9B3B0014B06C /* NMLCollectionViewBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9BD241F9B3B0014B06C /* NMLCollectionViewBigCell.m */; };
-		D871E9D1241F9BF10014B06C /* NMLRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9CF241F9BF10014B06C /* NMLRuleViewController.m */; };
+		D871E9C5241F9B3B0014B06C /* MDCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B2241F9B3B0014B06C /* MDCollectionViewLayout.m */; };
+		D871E9C6241F9B3B0014B06C /* MDDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B3241F9B3B0014B06C /* MDDemoViewController.m */; };
+		D871E9C7241F9B3B0014B06C /* MDDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B5241F9B3B0014B06C /* MDDemoData.m */; };
+		D871E9C8241F9B3B0014B06C /* MDDemoCellItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B6241F9B3B0014B06C /* MDDemoCellItemModel.m */; };
+		D871E9C9241F9B3B0014B06C /* MDCollectionViewSmallCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9BC241F9B3B0014B06C /* MDCollectionViewSmallCell.m */; };
+		D871E9CA241F9B3B0014B06C /* MDCollectionViewBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9BD241F9B3B0014B06C /* MDCollectionViewBigCell.m */; };
+		D871E9D1241F9BF10014B06C /* MDRuleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9CF241F9BF10014B06C /* MDRuleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,20 +74,20 @@
 		D83D157C2420C5EB004F864C /* md_image_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = md_image_text.png; sourceTree = "<group>"; };
 		D83D157D2420C5EB004F864C /* md_multi_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = md_multi_label.png; sourceTree = "<group>"; };
 		D83D15802420C5F6004F864C /* md_fold_number.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = md_fold_number.mov; sourceTree = "<group>"; };
-		D871E9B0241F9B3B0014B06C /* NMLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoViewController.h; sourceTree = "<group>"; };
-		D871E9B1241F9B3B0014B06C /* NMLCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewLayout.h; sourceTree = "<group>"; };
-		D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewLayout.m; sourceTree = "<group>"; };
-		D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLDemoViewController.m; sourceTree = "<group>"; };
-		D871E9B5241F9B3B0014B06C /* NMLDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLDemoData.m; sourceTree = "<group>"; };
-		D871E9B6241F9B3B0014B06C /* NMLDemoCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLDemoCellItemModel.m; sourceTree = "<group>"; };
-		D871E9B7241F9B3B0014B06C /* NMLDemoCellItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoCellItemModel.h; sourceTree = "<group>"; };
-		D871E9B8241F9B3B0014B06C /* NMLDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoData.h; sourceTree = "<group>"; };
-		D871E9BA241F9B3B0014B06C /* NMLCollectionViewSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewSmallCell.h; sourceTree = "<group>"; };
-		D871E9BB241F9B3B0014B06C /* NMLCollectionViewBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewBigCell.h; sourceTree = "<group>"; };
-		D871E9BC241F9B3B0014B06C /* NMLCollectionViewSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewSmallCell.m; sourceTree = "<group>"; };
-		D871E9BD241F9B3B0014B06C /* NMLCollectionViewBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewBigCell.m; sourceTree = "<group>"; };
-		D871E9CF241F9BF10014B06C /* NMLRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLRuleViewController.m; sourceTree = "<group>"; };
-		D871E9D0241F9BF10014B06C /* NMLRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLRuleViewController.h; sourceTree = "<group>"; };
+		D871E9B0241F9B3B0014B06C /* MDDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDemoViewController.h; sourceTree = "<group>"; };
+		D871E9B1241F9B3B0014B06C /* MDCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCollectionViewLayout.h; sourceTree = "<group>"; };
+		D871E9B2241F9B3B0014B06C /* MDCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCollectionViewLayout.m; sourceTree = "<group>"; };
+		D871E9B3241F9B3B0014B06C /* MDDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDemoViewController.m; sourceTree = "<group>"; };
+		D871E9B5241F9B3B0014B06C /* MDDemoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDemoData.m; sourceTree = "<group>"; };
+		D871E9B6241F9B3B0014B06C /* MDDemoCellItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDDemoCellItemModel.m; sourceTree = "<group>"; };
+		D871E9B7241F9B3B0014B06C /* MDDemoCellItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDemoCellItemModel.h; sourceTree = "<group>"; };
+		D871E9B8241F9B3B0014B06C /* MDDemoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDDemoData.h; sourceTree = "<group>"; };
+		D871E9BA241F9B3B0014B06C /* MDCollectionViewSmallCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCollectionViewSmallCell.h; sourceTree = "<group>"; };
+		D871E9BB241F9B3B0014B06C /* MDCollectionViewBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCollectionViewBigCell.h; sourceTree = "<group>"; };
+		D871E9BC241F9B3B0014B06C /* MDCollectionViewSmallCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCollectionViewSmallCell.m; sourceTree = "<group>"; };
+		D871E9BD241F9B3B0014B06C /* MDCollectionViewBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCollectionViewBigCell.m; sourceTree = "<group>"; };
+		D871E9CF241F9BF10014B06C /* MDRuleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDRuleViewController.m; sourceTree = "<group>"; };
+		D871E9D0241F9BF10014B06C /* MDRuleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDRuleViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -245,10 +245,10 @@
 		D871E9AF241F9B3B0014B06C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				D871E9B0241F9B3B0014B06C /* NMLDemoViewController.h */,
-				D871E9B1241F9B3B0014B06C /* NMLCollectionViewLayout.h */,
-				D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */,
-				D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */,
+				D871E9B0241F9B3B0014B06C /* MDDemoViewController.h */,
+				D871E9B1241F9B3B0014B06C /* MDCollectionViewLayout.h */,
+				D871E9B2241F9B3B0014B06C /* MDCollectionViewLayout.m */,
+				D871E9B3241F9B3B0014B06C /* MDDemoViewController.m */,
 				D871E9B4241F9B3B0014B06C /* Data */,
 				D871E9B9241F9B3B0014B06C /* Views */,
 			);
@@ -258,10 +258,10 @@
 		D871E9B4241F9B3B0014B06C /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				D871E9B5241F9B3B0014B06C /* NMLDemoData.m */,
-				D871E9B6241F9B3B0014B06C /* NMLDemoCellItemModel.m */,
-				D871E9B7241F9B3B0014B06C /* NMLDemoCellItemModel.h */,
-				D871E9B8241F9B3B0014B06C /* NMLDemoData.h */,
+				D871E9B5241F9B3B0014B06C /* MDDemoData.m */,
+				D871E9B6241F9B3B0014B06C /* MDDemoCellItemModel.m */,
+				D871E9B7241F9B3B0014B06C /* MDDemoCellItemModel.h */,
+				D871E9B8241F9B3B0014B06C /* MDDemoData.h */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -269,10 +269,10 @@
 		D871E9B9241F9B3B0014B06C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				D871E9BA241F9B3B0014B06C /* NMLCollectionViewSmallCell.h */,
-				D871E9BB241F9B3B0014B06C /* NMLCollectionViewBigCell.h */,
-				D871E9BC241F9B3B0014B06C /* NMLCollectionViewSmallCell.m */,
-				D871E9BD241F9B3B0014B06C /* NMLCollectionViewBigCell.m */,
+				D871E9BA241F9B3B0014B06C /* MDCollectionViewSmallCell.h */,
+				D871E9BB241F9B3B0014B06C /* MDCollectionViewBigCell.h */,
+				D871E9BC241F9B3B0014B06C /* MDCollectionViewSmallCell.m */,
+				D871E9BD241F9B3B0014B06C /* MDCollectionViewBigCell.m */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -287,8 +287,8 @@
 		D871E9CE241F9BF10014B06C /* Rule */ = {
 			isa = PBXGroup;
 			children = (
-				D871E9CF241F9BF10014B06C /* NMLRuleViewController.m */,
-				D871E9D0241F9BF10014B06C /* NMLRuleViewController.h */,
+				D871E9CF241F9BF10014B06C /* MDRuleViewController.m */,
+				D871E9D0241F9BF10014B06C /* MDRuleViewController.h */,
 			);
 			path = Rule;
 			sourceTree = "<group>";
@@ -450,15 +450,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D871E9C8241F9B3B0014B06C /* NMLDemoCellItemModel.m in Sources */,
-				D871E9C5241F9B3B0014B06C /* NMLCollectionViewLayout.m in Sources */,
-				D871E9C6241F9B3B0014B06C /* NMLDemoViewController.m in Sources */,
-				D871E9C7241F9B3B0014B06C /* NMLDemoData.m in Sources */,
-				D871E9CA241F9B3B0014B06C /* NMLCollectionViewBigCell.m in Sources */,
+				D871E9C8241F9B3B0014B06C /* MDDemoCellItemModel.m in Sources */,
+				D871E9C5241F9B3B0014B06C /* MDCollectionViewLayout.m in Sources */,
+				D871E9C6241F9B3B0014B06C /* MDDemoViewController.m in Sources */,
+				D871E9C7241F9B3B0014B06C /* MDDemoData.m in Sources */,
+				D871E9CA241F9B3B0014B06C /* MDCollectionViewBigCell.m in Sources */,
 				6003F59E195388D20070C39A /* MDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MDViewController.m in Sources */,
-				D871E9C9241F9B3B0014B06C /* NMLCollectionViewSmallCell.m in Sources */,
-				D871E9D1241F9BF10014B06C /* NMLRuleViewController.m in Sources */,
+				D871E9C9241F9B3B0014B06C /* MDCollectionViewSmallCell.m in Sources */,
+				D871E9D1241F9BF10014B06C /* MDRuleViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

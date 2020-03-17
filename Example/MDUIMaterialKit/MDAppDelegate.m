@@ -9,8 +9,8 @@
 #import "MDAppDelegate.h"
 #import "MDViewController.h"
 #import <Masonry/Masonry.h>
-#import "NMLDemoViewController.h"
-#import "NMLRuleViewController.h"
+#import "MDDemoViewController.h"
+#import "MDRuleViewController.h"
 
 @implementation MDAppDelegate
 
