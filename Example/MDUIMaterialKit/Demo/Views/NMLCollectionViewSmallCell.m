@@ -9,8 +9,8 @@
 #import "NMLCollectionViewSmallCell.h"
 #import <Masonry/Masonry.h>
 #import "NMLDemoCellItemModel.h"
-#import <NEViewLayout/NEViewLayout.h>
-#import <NEUIKit/UIColor+NEUIKit.h>
+#import <EasyLayout/EasyLayout.h>
+#import <MDCommonKit/MDCommonKit.h>
 
 @interface NMLCollectionViewSmallCell()
 @property (nonatomic, strong) UILabel *titleLabel;
@@ -78,8 +78,8 @@
         _titleLabel = [UILabel new];
         _titleLabel.textAlignment = NSTextAlignmentLeft;
         _titleLabel.font = [UIFont systemFontOfSize:10];
-        _titleLabel.textColor = [UIColor ne_colorWithHexString:@"ffffff" alpha:1.0];
-        _titleLabel.backgroundColor = [UIColor ne_colorWithHexString:@"000000" alpha:0.2];
+        _titleLabel.textColor = [UIColor md_colorWithHexString:@"ffffff" alpha:1.0];
+        _titleLabel.backgroundColor = [UIColor md_colorWithHexString:@"000000" alpha:0.2];
     }
     return _titleLabel;
 }
@@ -90,8 +90,8 @@
         _authorLabel = [UILabel new];
         _authorLabel.textAlignment = NSTextAlignmentRight;
         _authorLabel.font = [UIFont systemFontOfSize:10];
-        _authorLabel.textColor = [UIColor ne_colorWithHexString:@"ffffff" alpha:1.0];
-        _authorLabel.backgroundColor = [UIColor ne_colorWithHexString:@"000000" alpha:0.2];
+        _authorLabel.textColor = [UIColor md_colorWithHexString:@"ffffff" alpha:1.0];
+        _authorLabel.backgroundColor = [UIColor md_colorWithHexString:@"000000" alpha:0.2];
     }
     return _authorLabel;
 }

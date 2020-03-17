@@ -5,4 +5,6 @@ platform :ios, '9.0'
 
 target 'MDUIMaterialKit_Example' do
   pod 'MDUIMaterialKit', :path => '../'
+  pod 'MDCommonKit', '~> 1.0.0'
+  pod 'EasyLayout', '~> 1.0.0'
 end

@@ -41,5 +41,6 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'Masonry'
   s.dependency 'EasyLayout'
+  s.dependency 'MDCommonKit'
   
 end

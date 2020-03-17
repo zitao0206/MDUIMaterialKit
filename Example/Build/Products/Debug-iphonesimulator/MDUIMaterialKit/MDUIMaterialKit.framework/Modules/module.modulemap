@@ -1,0 +1,6 @@
+framework module MDUIMaterialKit {
+  umbrella header "MDUIMaterialKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

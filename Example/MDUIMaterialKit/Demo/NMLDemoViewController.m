@@ -12,7 +12,7 @@
 #import "NMLCollectionViewLayout.h"
 #import "NMLDemoData.h"
 #import "NMLDemoCellItemModel.h"
-#import <NEUIKit/UIColor+NEUIKit.h>
+#import <MDCommonKit/MDCommonKit.h>
 
 #define ScreenWidth   self.view.frame.size.width
 #define ScreenHeight  self.view.frame.size.height
@@ -31,8 +31,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.view.backgroundColor = [UIColor md_colorWithHexString:@"ffffff"];
+    
     [self.view addSubview:self.collectionView];
+    
     self.items = [[NMLDemoData obtainDemoCellData] mutableCopy];
 }
 
@@ -121,7 +124,7 @@
     if (!_collectionView) {
         NMLCollectionViewLayout *layout = [[NMLCollectionViewLayout alloc] init];
         _collectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 0, ScreenWidth, ScreenHeight) collectionViewLayout:layout];
-        _collectionView.backgroundColor = [UIColor ne_colorWithHexString:@"ff2c55" alpha:0.5];
+        _collectionView.backgroundColor = [UIColor md_colorWithHexString:@"ff2c55" alpha:0.5];
         _collectionView.delegate = self;
         _collectionView.dataSource = self;
         [_collectionView registerClass:[NMLCollectionViewSmallCell class] forCellWithReuseIdentifier:@"NMLCollectionViewSmallCell"];

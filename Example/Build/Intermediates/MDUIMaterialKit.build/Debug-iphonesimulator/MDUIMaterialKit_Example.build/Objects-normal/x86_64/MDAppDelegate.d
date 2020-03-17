@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/MDUIMaterialKit-Prefix.pch \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/MDAppDelegate.m \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/MDAppDelegate.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/MDViewController.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Modules/module.modulemap \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSLayoutConstraint+MASDebugAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASShorthandAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/NSArray+MASAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/ViewController+MASAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASShorthandAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASViewAttribute.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/View+MASAdditions.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASLayoutConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraintMaker.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint+Private.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASUtilities.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/MASCompositeConstraint.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/Build/Products/Debug-iphonesimulator/Masonry/Masonry.framework/Headers/Masonry-umbrella.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Demo/NMLDemoViewController.h \
+  /Users/lizitao/Desktop/MDUIMaterialKit/Example/MDUIMaterialKit/Rule/NMLRuleViewController.h

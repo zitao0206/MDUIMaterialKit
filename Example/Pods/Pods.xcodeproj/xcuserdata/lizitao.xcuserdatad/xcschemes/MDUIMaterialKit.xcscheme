@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE6CF2DAB280E9EE86103D406F832BAE"
+               BlueprintIdentifier = "CF1CFEA861B3E056CBE21F63EB5E63D7"
                BuildableName = "MDUIMaterialKit.framework"
                BlueprintName = "MDUIMaterialKit"
                ReferencedContainer = "container:Pods.xcodeproj">

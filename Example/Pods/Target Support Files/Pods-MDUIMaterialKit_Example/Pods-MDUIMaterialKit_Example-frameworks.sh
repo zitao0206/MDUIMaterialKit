@@ -144,11 +144,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/EasyLayout/EasyLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MDCommonKit/MDCommonKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MDUIMaterialKit/MDUIMaterialKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/EasyLayout/EasyLayout.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MDCommonKit/MDCommonKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MDUIMaterialKit/MDUIMaterialKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework"
 fi

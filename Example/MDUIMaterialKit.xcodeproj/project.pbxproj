@@ -22,6 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		D83D157E2420C5EB004F864C /* md_image_text.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D157C2420C5EB004F864C /* md_image_text.png */; };
+		D83D157F2420C5EB004F864C /* md_multi_label.png in Resources */ = {isa = PBXBuildFile; fileRef = D83D157D2420C5EB004F864C /* md_multi_label.png */; };
+		D83D15812420C5F6004F864C /* md_fold_number.mov in Resources */ = {isa = PBXBuildFile; fileRef = D83D15802420C5F6004F864C /* md_fold_number.mov */; };
 		D871E9C5241F9B3B0014B06C /* NMLCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */; };
 		D871E9C6241F9B3B0014B06C /* NMLDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B3241F9B3B0014B06C /* NMLDemoViewController.m */; };
 		D871E9C7241F9B3B0014B06C /* NMLDemoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D871E9B5241F9B3B0014B06C /* NMLDemoData.m */; };
@@ -68,6 +71,9 @@
 		AB1BB89FF6AF2397163C8ED1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		ADC84BD65D51CDCA03405D68 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CF2973631A6CE037B37CE305 /* Pods-MDUIMaterialKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MDUIMaterialKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MDUIMaterialKit_Example/Pods-MDUIMaterialKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D83D157C2420C5EB004F864C /* md_image_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = md_image_text.png; sourceTree = "<group>"; };
+		D83D157D2420C5EB004F864C /* md_multi_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = md_multi_label.png; sourceTree = "<group>"; };
+		D83D15802420C5F6004F864C /* md_fold_number.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = md_fold_number.mov; sourceTree = "<group>"; };
 		D871E9B0241F9B3B0014B06C /* NMLDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLDemoViewController.h; sourceTree = "<group>"; };
 		D871E9B1241F9B3B0014B06C /* NMLCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMLCollectionViewLayout.h; sourceTree = "<group>"; };
 		D871E9B2241F9B3B0014B06C /* NMLCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMLCollectionViewLayout.m; sourceTree = "<group>"; };
@@ -145,6 +151,7 @@
 		6003F593195388D20070C39A /* Example for MDUIMaterialKit */ = {
 			isa = PBXGroup;
 			children = (
+				D83D15732420C5AD004F864C /* Resources */,
 				D871E9CE241F9BF10014B06C /* Rule */,
 				D871E9AF241F9B3B0014B06C /* Demo */,
 				D871E9BE241F9B3B0014B06C /* DemoDetailVC */,
@@ -207,6 +214,32 @@
 				CF2973631A6CE037B37CE305 /* Pods-MDUIMaterialKit_Example.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D83D15732420C5AD004F864C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D83D15742420C5AD004F864C /* Images */,
+				D83D15772420C5AD004F864C /* Videos */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D83D15742420C5AD004F864C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D83D157C2420C5EB004F864C /* md_image_text.png */,
+				D83D157D2420C5EB004F864C /* md_multi_label.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		D83D15772420C5AD004F864C /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				D83D15802420C5F6004F864C /* md_fold_number.mov */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 		D871E9AF241F9B3B0014B06C /* Demo */ = {
@@ -340,9 +373,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D83D157E2420C5EB004F864C /* md_image_text.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				D83D15812420C5F6004F864C /* md_fold_number.mov in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				D83D157F2420C5EB004F864C /* md_multi_label.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +425,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MDUIMaterialKit_Example/Pods-MDUIMaterialKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/EasyLayout/EasyLayout.framework",
+				"${BUILT_PRODUCTS_DIR}/MDCommonKit/MDCommonKit.framework",
 				"${BUILT_PRODUCTS_DIR}/MDUIMaterialKit/MDUIMaterialKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
@@ -397,6 +434,7 @@
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EasyLayout.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDCommonKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDUIMaterialKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);

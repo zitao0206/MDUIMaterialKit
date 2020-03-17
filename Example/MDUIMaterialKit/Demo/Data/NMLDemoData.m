@@ -16,33 +16,33 @@
     {
         NMLDemoCellItemModel *item = [NMLDemoCellItemModel new];
         item.cellType = NMLKDemoBigItemCellType;
-        item.className = @"NMLFoldNumberView";
-        item.imageName = @"nml_fold_number";
+        item.className = @"MDFoldNumberView";
+        item.imageName = @"md_fold_number";
         item.imageType = @"mov";
-        item.author = @"lizitao";
-        item.detailVCName = @"NMLFoldNumberViewController";
+        item.author = @"Leon";
+        item.detailVCName = @"MDFoldNumberViewController";
         item.descrip = @"滚动的数字";
         [array addObject:item];
     }
     {
         NMLDemoCellItemModel *item = [NMLDemoCellItemModel new];
         item.cellType = NMLKDemoSmallItemCellType;
-        item.className = @"NMLMultiLabelView";
-        item.imageName = @"nml_multi_label";
+        item.className = @"MDMultiLabelView";
+        item.imageName = @"md_multi_label";
         item.imageType = @"png";
-        item.author = @"lizitao";
-        item.detailVCName = @"NMLMultiLabelViewController";
+        item.author = @"Leon";
+        item.detailVCName = @"MDMultiLabelViewController";
         item.descrip = @"多标签展示";
         [array addObject:item];
     }
     {
          NMLDemoCellItemModel *item = [NMLDemoCellItemModel new];
          item.cellType = NMLKDemoSmallItemCellType;
-         item.className = @"NMLImageTextView";
-         item.imageName = @"nml_image_text";
+         item.className = @"MDImageTextView";
+         item.imageName = @"md_image_text";
          item.imageType = @"png";
-         item.author = @"lizitao";
-         item.detailVCName = @"NMLImageTextViewController";
+         item.author = @"Leon";
+         item.detailVCName = @"MDImageTextViewController";
          item.descrip = @"多功能显示标签";
          [array addObject:item];
      }

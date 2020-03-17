@@ -1,11 +1,15 @@
 PODS:
   - EasyLayout (1.0.22)
   - Masonry (1.1.0)
+  - MDCommonKit (1.0.24)
   - MDUIMaterialKit (0.1.0):
     - EasyLayout
     - Masonry
+    - MDCommonKit
 
 DEPENDENCIES:
+  - EasyLayout (~> 1.0.0)
+  - MDCommonKit (~> 1.0.0)
   - MDUIMaterialKit (from `../`)
 
 SPEC REPOS:
@@ -13,6 +17,7 @@ SPEC REPOS:
     - Masonry
   https://github.com/Leon0206/MDSpecs.git:
     - EasyLayout
+    - MDCommonKit
 
 EXTERNAL SOURCES:
   MDUIMaterialKit:
@@ -21,8 +26,9 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   EasyLayout: 24623ce8ec65089f043c79d8c966a788817b2bb2
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MDUIMaterialKit: d3fc9a1c7c6bcd8747f301936144a9cd645683c6
+  MDCommonKit: 94b4bc6155d3545d775292c631b160fecd4526d0
+  MDUIMaterialKit: 52bd341fc1ea12651d863a78332f0091a27a2664
 
-PODFILE CHECKSUM: 41ab03f014d4ec0d3e2b4838a4ee2ae9c93c2e87
+PODFILE CHECKSUM: 2c73a271c579d3e421a119e586e4ddba42977aa2
 
 COCOAPODS: 1.5.3
